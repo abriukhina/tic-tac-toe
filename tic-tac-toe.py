@@ -37,6 +37,7 @@ def input_a_move(field):
             continue
         if field[x][y] != ' ':
             print('Ошибка: Эта клетка уже занята, выберите другую')
+            continue
         return x, y
 
 
